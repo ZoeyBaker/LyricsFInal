@@ -43,7 +43,7 @@ var request = new HttpRequestMessage
     RequestUri = new Uri($"https://spotify23.p.rapidapi.com/track_lyrics/?id={songName}"),
     Headers =
     {
-        { "X-RapidAPI-Key", "d37724f31amsh5b7b473995b9699p1dd08djsn1424a0334a39" },
+        { "X-RapidAPI-Key", "omitted" },
         { "X-RapidAPI-Host", "spotify23.p.rapidapi.com" },
     },
 };
